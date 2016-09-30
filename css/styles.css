@@ -1,0 +1,285 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    margin: 0;
+ 	padding: 0;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+nav {
+	float: right;
+	padding: 0px;
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+}
+
+img {
+	height: auto;
+	width: 100%
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	padding: 0px;
+	background-color: #000000;
+	border-bottom: 3px solid #fdf731;
+	overflow: hidden;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Merriweather', Times, serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: #000000;
+}
+
+footer {
+	background-color: #000000;
+}
+
+.copyright {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	padding: 20px 0px 20px 40px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.logo {
+	float: left;
+	padding: 20px 0px 20px 40px;
+	margin: 0px;
+	font-family: 'Merriweather', Times, serif;
+	color: #fdf731;
+	font-weight: 700;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #fdf731;
+}
+
+.logo a:hover {
+	color: #FFFFFF;
+}
+
+.nav-links {
+	float: left;
+	padding: 28px 20px;
+	margin: 0px;
+}
+
+.nav-links a {
+	text-decoration: none;
+	font-family: 'Oswald', Impact, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.nav-links a:hover {
+	color: #fdf731;
+}
+
+.different a {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+
+.active {
+	background-color: #666666;
+}
+
+.tag-line {
+	background-color: #c6c6c6;
+	text-align: center;
+}
+
+.tag-line p {
+	padding-top: 27px;
+	padding-bottom: 27px;
+	font-size: 25px;
+	color: #000000;
+	font-weight: 700;
+	font-style: italic;
+	font-family: 'Merriweather', Times, serif;
+}
+
+.tag-line del {
+	color: #999999;
+}
+
+.tag-line ins {
+	border-bottom: 3px solid #fdf731;
+	text-decoration: none;
+	box-shadow: 
+}
+
+.hero {
+	background-image: url("../images/coworking.jpg");
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	clear: both;
+}
+
+.cta {
+	background-color: rgba(255,255,255,.8);
+	float: right;
+	width: 540px;
+	height: auto;
+	box-shadow: 0px 5px 10px #000000;
+	margin: 20px 40px 20px 20px;
+	padding: 50px;
+}
+
+.cta p {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 20px;
+}
+
+.button {
+	background-color: #c6c6c6;
+	font-family: 'Oswald', Impact, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0px 3px 0px #999999;
+	border-radius: 6px;
+	margin-top: 10px;
+}
+
+.button a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.button-yellow {
+	background-color: #fdf731;
+	box-shadow: 0px 3px 0px #A29C02;
+}
+
+.main {
+	padding: 20px;
+}
+
+.description {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.main-left {
+	float: left;
+	width: 30%;
+	margin-left: 20px;
+	padding: 5px 20px 20px 0px;
+	border-right: 1px solid #c6c6c6;
+}
+
+.main-middle {
+	float: left;
+	width: 30%;
+	padding: 0px 20px 20px 20px;
+	border-right: 1px solid #c6c6c6;
+}
+
+.main-right {
+	float: left;
+	width: 30%;
+	margin-right: 40px;
+	padding: 0px 20px 20px 20px;
+}
+
+.developers {
+	padding: 40px;
+	background-color: #c6c6c6;
+}
+
+.developers-row {
+	width: 100%;
+	height: auto;
+}
+
+.developer-profile {
+	background-color: #ffffff;
+	width: 20%;
+	height: auto;
+	padding: 10px;
+}
+
+.developer-profile-name {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+
+.hashtag {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #666666;
+	padding: 2px 15px;
+	border: 0 solid #666666;
+	border-radius: 100px;
+	display: inline-block;
+	margin-right: 5px;
+}
